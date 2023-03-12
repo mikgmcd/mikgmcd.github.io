@@ -4,3 +4,12 @@ p {
     font-size: 60px;
     margin-top: 250px;
 }
+
+.spin {
+    max-width: 5%;
+    display: block;
+    margin-left: 94.2vw;
+    margin-top: 23vw;
+    position: fixed;
+
+}
