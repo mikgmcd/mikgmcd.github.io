@@ -1,15 +1,36 @@
-p {
-    font-family: "Comic Sans MS";
+@font-face {
+    font-family: comic;
+    src: url("res/ComicSansMS400.ttf");
+}
+
+h1{
+    font-size: 400%;
+}
+
+
+.title {
+    font-family: comic;
     text-align: center;
-    font-size: 60px;
-    margin-top: 250px;
 }
 
-.spin {
-    max-width: 5%;
-    display: block;
-    margin-left: 94.2vw;
-    margin-top: 23vw;
+.timer{
+    font-family: comic;
+    text-align: center;
+    margin-top: 20%;  
+}
+
+#footer {
+    bottom: 10%;
+    text-align: right;
     position: fixed;
+    overflow: auto;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+ }
 
-}
+ #smilley{
+    width: 5%;
+    height: 9%;
+    float: right;
+ }
