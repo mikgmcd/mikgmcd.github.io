@@ -9,12 +9,12 @@ h1{
 
 
 .title {
-    font-family: comic;
+    font-family: "Comic Sans MS";
     text-align: center;
 }
 
 .timer{
-    font-family: comic;
+    font-family: "Comic Sans MS";
     text-align: center;
     margin-top: 20%;  
 }
@@ -30,7 +30,7 @@ h1{
  }
 
  #smilley{
-    width: 5%;
-    height: 9%;
+    width: 100px;
+    height: 100px;
     float: right;
  }
