@@ -5,6 +5,7 @@
 
 h1{
     font-size: 400%;
+    font-weight: normal;
 }
 
 
@@ -17,6 +18,21 @@ h1{
     font-family: "Comic Sans MS";
     text-align: center;
     margin-top: 20%;  
+}
+
+.staywell{
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    width: 50%;
+    height: auto;
+}
+
+#makecenter{
+    display: table;
+    height: 97.5vh;
 }
 
 #footer {
