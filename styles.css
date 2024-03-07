@@ -3,52 +3,30 @@
     src: url("res/ComicSansMS400.ttf");
 }
 
+<<<<<<< HEAD
 @media screen and (min-width:700px) {
 body, html {
     height: auto;
     margin: 0;
       /* The image used */
   background-image: url("res/scroll.jpeg");
+=======
+>>>>>>> parent of fc8a322 (stay well release push)
 
-  /* Full height */
-  height: auto;
-  width: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 5%;
-}
-
-.sans{
-    font-family: comic;
-    font-weight: normal;
-}
-
-.button{
-    font-family: comic;
-    font-weight: normal;
-}
-
-.response{
-    font-family: comic;
-    font-weight: normal;
-}
+ 
 
 h1{
     font-size: 400%;
     font-weight: normal;
 }
 
-.headerimg{
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    width: 100%;
-    height: auto;
+
+.title {
+    font-family: "Comic Sans MS";
+    text-align: center;
 }
 
+<<<<<<< HEAD
 .headlistl {
     margin-right: 0;
     margin-left: 0;
@@ -191,6 +169,13 @@ h1{
     }
 
   }
+=======
+.timer{
+    font-family: "Comic Sans MS";
+    text-align: center;
+    margin-top: auto;  
+}
+>>>>>>> parent of fc8a322 (stay well release push)
 
 .staywell{
     display: table-cell;
@@ -201,41 +186,36 @@ h1{
     height: auto;
 }
 
-#column{
+.bike{
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+#makecenter{
+    display: table;
+    height: 97.5vh;
+}
+
+.vidcenter{
+    margin-top: 0;
     position: relative;
-    background-color: #FAFCF1;
-    width: 65%;
-    height: 100%;
-    margin: auto;
-    padding-bottom: 3%;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 30%;
 }
 
-.fullcont{
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-}
-
-.video-container {
-    /* width is set as 100% here. any width can be specified as per requirement */
-    width: 90%;
-    padding: 1%;
-    padding-top: 56.25%;
-    height: 0px;
-    position: relative;
-    margin: auto;
-    margin-bottom: 3%;
-    display: block;
-}
-
-#yt {
-    width: 100%;
-    height: 100%;
+.vidcenter iframe{
     position: absolute;
-    top: 0;
+    display: inline-block;
     left: 0;
-    padding-top: 3%;
-    padding-bottom: 6%;
+    right: 0;
+    height: 30%;
+    width: 40%;
+    margin: 0 auto;
 }
+
+
 
 #footer {
     bottom: 10%;
@@ -252,49 +232,3 @@ h1{
     height: 100px;
     float: right;
  }
-
-/* music */
-
-#topalbcover{
-    width:92%; 
-    height:auto; 
-    position:relative; 
-    display: block; 
-    margin:auto;
-    margin-top: 6%;
-    margin-bottom: 3%;
-}
-
-#albcover{
-    width:92%; 
-    height:auto; 
-    position:relative; 
-    display: block; 
-    margin:auto;
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
- /* contact */
- 
-.mailing-title{
-    margin-top: 5%;
-    text-align: center;
-    font-family: comic;
-    position:relative;
-}
-
-#mc_embed_signup{
-    display: block;
-    position: relative;
-    margin: auto;
-    margin-top: 10%;
-    width: 90%;
-}
-
-/* shows */
-
-.songkick-widget{
-    width: 90%;
-    height: auto;
-}
