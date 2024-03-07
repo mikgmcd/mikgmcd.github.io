@@ -3,6 +3,7 @@
     src: url("res/ComicSansMS400.ttf");
 }
 
+@media screen and (min-width:700px) {
 body, html {
     height: auto;
     margin: 0;
@@ -68,7 +69,6 @@ h1{
 }
 
 .top-nav {
-
     margin-top: 2%;
     position: relative;
     display: flex;
@@ -86,68 +86,23 @@ h1{
     width: 100%;
     height: auto;
   }
+  
+  
 
-  .socmenu {
-    display: inline-flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-  }
   
-  .menu-button-container {
-    display: none;
-    height: auto;
-    width: auto;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #menu-toggle {
-    display: none;
-  }
-  
-  .menu-button,
-  .menu-button::before,
-  .menu-button::after {
-    display: block;
-    background-color: #000;
-    position: absolute;
-    height: 4px;
-    width: 30px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    border-radius: 2px;
-  }
-  
-  .menu-button::before {
-    content: '';
-    margin-top: -8px;
-  }
-  
-  .menu-button::after {
-    content: '';
-    margin-top: 8px;
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::before {
-    margin-top: 0px;
-    transform: rotate(405deg);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button {
-    background: rgba(0, 0, 0, 0);
-  }
-  
-  #menu-toggle:checked + .menu-button-container .menu-button::after {
-    margin-top: 0px;
-    transform: rotate(-405deg);
-  }
-  
-  @media (max-width: 700px) {
+#album{
+  width:90%; 
+  height:auto; 
+  position:relative; 
+  display: block; 
+  margin:auto; 
+}
+}
+  @media screen and (min-width:0) and (max-width: 576px) {
+
+    .soc{
+      display:none;
+    }
 
     #yt {
         width: 100%;
