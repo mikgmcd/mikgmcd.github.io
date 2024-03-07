@@ -49,35 +49,52 @@ h1{
 }
 
 .headlistl {
-    margin-right: 2%;
-    margin-left: 1%;
+    margin-right: 0;
+    margin-left: 0;
     height: 100%;
     display: flex;
   }
 
+.socials{
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    width: 100%;
+    height: auto;
+}
+
+.socials-container{
+  height: 60%;
+}
+
 .top-nav {
-    z-index: 1;
+
     margin-top: 2%;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #FAFCF1;
-    background: #FAFCF1;
-    height: 10%;
-    width: 65%;
-    left: 50%;
-    transform: translate(-50%, 0);
   }
 
   .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  .socmenu {
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
     padding-left: 0;
     margin: 0;
     width: 100%;
+    height: auto;
   }
   
   .menu-button-container {
