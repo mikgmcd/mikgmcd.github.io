@@ -4,12 +4,15 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (min-width:700px) {
 body, html {
     height: auto;
     margin: 0;
       /* The image used */
   background-image: url("res/scroll.jpeg");
+=======
+>>>>>>> parent of fc8a322 (stay well release push)
 =======
 >>>>>>> parent of fc8a322 (stay well release push)
 
@@ -24,6 +27,7 @@ h1{
 .title {
     font-family: "Comic Sans MS";
     text-align: center;
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -170,11 +174,18 @@ h1{
 
   }
 =======
+=======
+}
+
+>>>>>>> parent of fc8a322 (stay well release push)
 .timer{
     font-family: "Comic Sans MS";
     text-align: center;
     margin-top: auto;  
 }
+<<<<<<< HEAD
+>>>>>>> parent of fc8a322 (stay well release push)
+=======
 >>>>>>> parent of fc8a322 (stay well release push)
 
 .staywell{
