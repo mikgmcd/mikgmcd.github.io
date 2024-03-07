@@ -3,19 +3,29 @@
     src: url("res/ComicSansMS400.ttf");
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-@media screen and (min-width:700px) {
 body, html {
     height: auto;
     margin: 0;
       /* The image used */
   background-image: url("res/scroll.jpeg");
-=======
->>>>>>> parent of fc8a322 (stay well release push)
-=======
->>>>>>> parent of fc8a322 (stay well release push)
 
+  /* Full height */
+  height: auto;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+
+.sans{
+    font-family: comic;
+    font-weight: normal;
+}
+
+ 
  
 
 h1{
@@ -23,22 +33,7 @@ h1{
     font-weight: normal;
 }
 
-
-.title {
-    font-family: "Comic Sans MS";
-    text-align: center;
-<<<<<<< HEAD
-}
-
-<<<<<<< HEAD
-.headlistl {
-    margin-right: 0;
-    margin-left: 0;
-    height: 100%;
-    display: flex;
-  }
-
-.socials{
+.headerimg{
     position: relative;
     display: inline-block;
     align-self: flex-end;
@@ -46,45 +41,89 @@ h1{
     height: auto;
 }
 
-.socials-container{
-  height: 60%;
-}
+.headlistl {
+    margin-right: 2%;
+    margin-left: 1%;
+    height: 100%;
+    display: flex;
+  }
 
 .top-nav {
+    z-index: 1;
     margin-top: 2%;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #FAFCF1;
+    background: #FAFCF1;
+    height: 10%;
+    width: 65%;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 
   .menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 0;
-    margin-bottom: 50px;
+    padding-left: 0;
+    margin: 0;
     width: 100%;
-    height: auto;
   }
   
+  .menu-button-container {
+    display: none;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
-
+  #menu-toggle {
+    display: none;
+  }
   
-#album{
-  width:90%; 
-  height:auto; 
-  position:relative; 
-  display: block; 
-  margin:auto; 
-}
-}
-  @media screen and (min-width:0) and (max-width: 576px) {
-
-    .soc{
-      display:none;
-    }
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
+    display: block;
+    background-color: #000;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+  }
+  
+  .menu-button::before {
+    content: '';
+    margin-top: -8px;
+  }
+  
+  .menu-button::after {
+    content: '';
+    margin-top: 8px;
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
+    background: rgba(0, 0, 0, 0);
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+  }
+  
+  @media (max-width: 700px) {
 
     #yt {
         width: 100%;
@@ -173,20 +212,6 @@ h1{
     }
 
   }
-=======
-=======
-}
-
->>>>>>> parent of fc8a322 (stay well release push)
-.timer{
-    font-family: "Comic Sans MS";
-    text-align: center;
-    margin-top: auto;  
-}
-<<<<<<< HEAD
->>>>>>> parent of fc8a322 (stay well release push)
-=======
->>>>>>> parent of fc8a322 (stay well release push)
 
 .staywell{
     display: table-cell;
