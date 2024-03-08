@@ -4,11 +4,50 @@
 }
 
 
- 
+body, html {
+  height: auto;
+  margin: 0;
+    /* The image used */
+background-image: url("res/scroll.jpeg");
+}
 
 h1{
     font-size: 400%;
     font-weight: normal;
+}
+
+/* begin yt video definitions */
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  margin:auto;
+}
+
+.video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* end yt video definitions*/
+
+/* album cover size definition */
+#albcover{
+  width:90%; 
+  height:auto; 
+  position:relative; 
+  display: block; 
+  margin:auto;
 }
 
 .headerimg{
@@ -101,15 +140,43 @@ h1{
     transform: rotate(-405deg);
   }
   
+  #column{
+    position: relative;
+    background-color: #FAFCF1;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+
   @media (max-width: 700px) {
 
-    #yt {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        margin-top: 10%;
+    #albcover{
+      width:100%; 
+      height:auto; 
+      position:relative; 
+      display: block; 
+      margin:auto;
+    }
+
+    .video-container {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+    }
+    
+    .video-container::after {
+      display: block;
+      content: "";
+      padding-top: 56.25%;
+    }
+    
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
 
     .menu-button-container {
