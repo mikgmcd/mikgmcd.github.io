@@ -236,7 +236,7 @@ h1{
       justify-content: center;
       align-items: center;
     }
-
+ 
     #menu-toggle ~ .menu li {
       height: 0;
       margin: 0;
