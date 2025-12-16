@@ -33,15 +33,19 @@ p,h1,h2,h3{
   font-weight:bold;
 }
 div{
+  height:100%;
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:space-evenly;
 }
 strong{
   color:red
 }
 img{
+  width:20%;
+}
+#cover{
   width:30%;
 }
 a{
@@ -50,11 +54,25 @@ a{
 a:hover{
   color:red;
 }
+@media screen and (max-width: 600px){
+  p,h1,h2,h3{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: x-large;
+  }
+  img{
+    width:70%;
+  }
+  #cover{
+    width:90%;
+  }
+}
 </style>
 <body>
 <div>
-    <img style="width:20%;" src="res/smilley_new_logo.jpeg" alt="[SMILLEY LOGO]">
-    <a style="width:30%;" href="https://distrokid.com/hyperfollow/smilley/shin-ei---single/"><img style="width:100%;" src="res/smilley_ShinEiArtwork.jpeg"></a>
+    <img src="res/smilley_new_logo.jpeg" alt="[SMILLEY LOGO]">
+    <a id="cover" href="https://distrokid.com/hyperfollow/smilley/shin-ei---single/"><img style="width:100%;" src="res/smilley_ShinEiArtwork.jpeg"></a>
     <h1 style="text-align:center;"><strong>SHIN EI</strong> OUT 12/22 - <a href="https://distrokid.com/hyperfollow/smilley/shin-ei---single/">PRESAVE</a></h1>
 <div>
 </body>
