@@ -11,18 +11,15 @@
 <div class="top">
     <img src="/img/logo_cutout.webp" alt="smilley written in all caps on a torn piece of paper"/>
     {#if innerHeight < innerWidth}
-    <p>new single <i>Rail</i> out now</p>
+      <p class="ohwell-font" style="font-size:5em; text-align:center;letter-spacing:-8px;">OH WELL<br>THE SOPHOMORE ALBUM BY SMILLEY<br>OUT 5.08.26</p>
     {:else}
-    <p>new single <a href="https://fanlink.tv/rail_smilley"><i>Rail</i></a> out now</p>
+      <p class="ohwell-font" style="font-size:5em;text-align:center;letter-spacing:-8px;">OH WELL<br>THE SOPHOMORE ALBUM BY SMILLEY<br>OUT 5.08.26</p>
     {/if}
 </div>
 <div class="images">
     <div class="music_artwork">
-        <a href="https://fanlink.tv/rail_smilley"><img width=500px src="/img/rail_artwork.webp" alt="the artwork for Rail"/></a>
-        <p><strong>"it's genuinely good"</strong>
-            <br><br>
-            - 25footcouch, <i>albumoftheyear.org</i>
-        </p>
+        <a href="https://fanlink.tv/rail_smilley"><img width=500px src="/img/oh-well_artwork.webp" alt="the artwork for Rail"/></a>
+        <p class="ohwell-font" style="font-size:xxx-large;letter-spacing:-5px;">PRESAVE <a href="">HERE</a><br><br></p>
     </div>
     <div class="show1">
       <img height=392px src="/img/show1.webp" alt=""/>
@@ -78,11 +75,13 @@
 <style>
     .top{
         min-width:85%;
+        object-fit:cover;
+        min-height:1000px;
         display:inline-block;
-        background-image:url("/img/guitarbricks.webp");
+        background-image:url("/img/milesbricks.webp");
         background-repeat: no-repeat;
         background-size: 100%;
-        background-position: 1px;
+        background-position: center;
         margin-bottom:10px;
     }
     .top img{
@@ -92,13 +91,7 @@
         margin-right:10%;
     }
     .top p{
-        font-family:'Courier New', Courier, monospace;
-        background-color:white;
-        color:black;
-        width:fit-content;
-        font-weight:bolder;
-        font-size:xx-large;
-
+        width:100%;
         display:block;
         margin-top:230px;
         margin-right:20%;
@@ -120,8 +113,11 @@
     .music_artwork img{
         max-width:100%;
     }
-    .music_artwork p{
-        font-family:monospace;
+    .ohwell-font{
+        font-family:"Arial",sans-serif;
+        font-weight:1000;
+        font-kerning:none;
+        
         margin-left:50px;
     }
     .music_artwork p strong{
