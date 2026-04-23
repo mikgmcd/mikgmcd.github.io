@@ -18,8 +18,8 @@
 </div>
 <div class="images">
     <div class="music_artwork">
-        <a href="https://fanlink.tv/rail_smilley"><img width=500px src="/img/oh-well_artwork.webp" alt="the artwork for Rail"/></a>
-        <p class="ohwell-font" style="font-size:xxx-large;letter-spacing:-5px;">PRESAVE <a href="">HERE</a><br><br></p>
+        <a href="https://distrokid.com/hyperfollow/smilley/oh-well"><img width=500px src="/img/oh-well_artwork.webp" alt="the artwork for Rail"/></a>
+        <p class="ohwell-font" style="font-size:xxx-large;letter-spacing:-5px;">PRESAVE <a href="https://distrokid.com/hyperfollow/smilley/oh-well">HERE</a><br><br></p>
     </div>
     <div class="show1">
       <img height=392px src="/img/show1.webp" alt=""/>
@@ -77,7 +77,9 @@
         min-width:85%;
         object-fit:cover;
         min-height:1000px;
-        display:inline-block;
+        display:block;
+	margin-left:0;
+	margin-right:0;
         background-image:url("/img/milesbricks.webp");
         background-repeat: no-repeat;
         background-size: 100%;
