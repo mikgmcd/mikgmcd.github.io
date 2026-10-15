@@ -24,9 +24,10 @@
 <div>
     {#if innerWidth >= innerHeight}
     <img style="max-width:600px;" src="/img/bio_cutout.webp" alt="biography"/>
-    <img style="max-height:280px; margin-top:100px;" src="/img/show2.webp" alt=""/>
+    <img style="width: 60%; margin-top:100px;" src="/img/milesbricks2.webp" alt=""/>
     {:else}
     <img style="max-width:{innerWidth}px;" src="/img/bio_cutout.webp" alt="biography"/>
+    <img style="width: 95%; margin-top:100px;" src="/img/milesbricks2.webp" alt=""/>
     {/if}
 </div>
 
@@ -44,8 +45,9 @@
 <style>
     div{
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         justify-content: center;
+        align-items: center;
         height: fit-content;
     }
     p, h1{

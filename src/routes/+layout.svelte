@@ -47,7 +47,6 @@
 	{/each}
 </nav>
 {:else}
-<!--TODO: add a "scroll to top" feature-->
 <nav style="flex-direction:column; background:black; height:{menuExpanded ? innerHeight : 80}px;">
 	<button style="border:none; background:transparent; height:{menuExpanded ? innerHeight : 80}px;" onclick={expandCompress}>
 		{#if menuExpanded}

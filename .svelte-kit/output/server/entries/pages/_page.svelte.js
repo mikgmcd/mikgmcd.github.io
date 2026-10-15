@@ -1,0 +1,16 @@
+import { h as head } from "../../chunks/index.js";
+function _page($$renderer) {
+  head("1uha8ag", $$renderer, ($$renderer2) => {
+    $$renderer2.title(($$renderer3) => {
+      $$renderer3.push(`<title>SMILLEY</title>`);
+    });
+  });
+  $$renderer.push(`<div class="top svelte-1uha8ag"><img src="/img/logo_cutout.webp" alt="smilley written in all caps on a torn piece of paper" class="svelte-1uha8ag"/> `);
+  {
+    $$renderer.push(`<!--[-1--><p class="ohwell-font svelte-1uha8ag" style="font-size:5em;text-align:center;letter-spacing:-8px;">OH WELL<br/>THE SOPHOMORE ALBUM BY SMILLEY<br/><a href="https://distrokid.com/hyperfollow/smilley/oh-well">OUT NOW</a></p>`);
+  }
+  $$renderer.push(`<!--]--></div> <div class="images svelte-1uha8ag"><div class="show1 svelte-1uha8ag"><img height="392px" src="/img/show1.webp" alt=""/> <p style="margin-left:10px; font-size:small; font-family:'Times New Roman', Times, serif;">Kate Kotlyar © 2024</p></div></div> <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css"/> <div id="mc_embed_signup" class="svelte-1uha8ag"><form action="https://linktr.us12.list-manage.com/subscribe/post?u=e959f36a6d2622702b6f4390e&amp;id=58655fa792&amp;f_id=009ab9e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate=""><div id="mc_embed_signup_scroll"><h2 class="mailing-title">Subscribe to my mailing list!</h2> <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> <div class="mc-field-group"><label for="mce-EMAIL" class="sans">Give me your email<span class="asterisk">*</span></label> <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required=""/></div> <div class="mc-field-group"><label for="mce-FNAME" class="sans">First Name</label> <input type="text" value="" name="FNAME" id="mce-FNAME"/></div> <div class="mc-field-group"><label for="mce-LNAME" class="sans">Last Name</label> <input type="text" value="" name="LNAME" id="mce-LNAME"/></div> <div class="mc-field-group size1of2"><label for="mce-BIRTHDAY-month" class="sans">Birthday</label> <div class="datefield"><span class="subfield monthfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"/></span> <span class="subfield dayfield"><input class="birthday" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"/></span></div></div> <div id="mce-responses" class="clear foot"><div class="response" id="mce-error-response" style="display:none"></div> <div class="response" id="mce-success-response" style="display:none"></div></div> <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e959f36a6d2622702b6f4390e_58655fa792" tabindex="-1" value=""/></div> <div class="optionalParent"><div class="clear foot"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/></div></div></div></form></div>`);
+}
+export {
+  _page as default
+};

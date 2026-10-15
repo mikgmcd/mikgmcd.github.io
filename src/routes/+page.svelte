@@ -10,17 +10,14 @@
 
 <div class="top">
     <img src="/img/logo_cutout.webp" alt="smilley written in all caps on a torn piece of paper"/>
-    {#if innerHeight < innerWidth}
-      <p class="ohwell-font" style="font-size:5em; text-align:center;letter-spacing:-8px;">OH WELL<br>THE SOPHOMORE ALBUM BY SMILLEY<br>OUT 5.08.26</p>
+    {#if innerHeight > innerWidth}
+      <p class="ohwell-font" style="font-size:5em;text-align:center;letter-spacing:-8px;">OH WELL<br>OUT NOW</p>
+      <p class="ohwell-font" style="font-size:xxx-large;letter-spacing:-5px;">LISTEN <a href="https://distrokid.com/hyperfollow/smilley/oh-well">HERE</a><br><br></p>
     {:else}
-      <p class="ohwell-font" style="font-size:5em;text-align:center;letter-spacing:-8px;">OH WELL<br>THE SOPHOMORE ALBUM BY SMILLEY<br>OUT 5.08.26</p>
+      <p class="ohwell-font" style="font-size:5em;text-align:center;letter-spacing:-8px;">OH WELL<br>THE SOPHOMORE ALBUM BY SMILLEY<br><a href="https://distrokid.com/hyperfollow/smilley/oh-well">OUT NOW</a></p>
     {/if}
 </div>
 <div class="images">
-    <div class="music_artwork">
-        <a href="https://distrokid.com/hyperfollow/smilley/oh-well"><img width=500px src="/img/oh-well_artwork.webp" alt="the artwork for Rail"/></a>
-        <p class="ohwell-font" style="font-size:xxx-large;letter-spacing:-5px;">PRESAVE <a href="https://distrokid.com/hyperfollow/smilley/oh-well">HERE</a><br><br></p>
-    </div>
     <div class="show1">
       <img height=392px src="/img/show1.webp" alt=""/>
       <p style="margin-left:10px; font-size:small; font-family:'Times New Roman', Times, serif;">Kate Kotlyar © 2024</p>
@@ -76,14 +73,15 @@
     .top{
         min-width:85%;
         object-fit:cover;
-        min-height:1000px;
+        min-height:1500px;
         display:block;
 	margin-left:0;
 	margin-right:0;
-        background-image:url("/img/milesbricks.webp");
+        background-image:url("/img/oh-well_artwork.webp");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
+        height:fit-content;
         margin-bottom:10px;
     }
     .top img{
@@ -109,25 +107,16 @@
             flex-direction:column;
         }
     }
-    .music_artwork{
-        margin-top:50px;
-    }
-    .music_artwork img{
-        max-width:100%;
-    }
     .ohwell-font{
         font-family:"Arial",sans-serif;
         font-weight:1000;
         font-kerning:none;
-        
         margin-left:50px;
-    }
-    .music_artwork p strong{
-        font-size:xx-large;
     }
     .show1{
       width:fit-content; 
       margin-left:100px;
+      margin-top:50px;
     }
     #mc_embed_signup{
         display:block;
